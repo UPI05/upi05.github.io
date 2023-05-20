@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cryptography on Hieu Vo</title>
+    <link>https://upi05.github.io/tags/cryptography/</link>
+    <description>Recent content in cryptography on Hieu Vo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Apr 2023 12:52:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trao đổi khóa Diffie-Hellman trên đường cong Elliptic</title>
+      <link>https://upi05.github.io/posts/ecdh/</link>
+      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/ecdh/</guid>
+      
+        <description>Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 + ax + b (4a^3 + 27b^2 ≠ 0).</description>
+      
+    </item>
+    
+  </channel>
+</rss>

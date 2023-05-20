@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lamport_clock on Hieu Vo</title>
+    <link>https://upi05.github.io/tags/lamport_clock/</link>
+    <description>Recent content in lamport_clock on Hieu Vo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 May 2023 06:39:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/lamport_clock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Đồng hồ Lamport</title>
+      <link>https://upi05.github.io/posts/lamport-clocks/</link>
+      <pubDate>Mon, 08 May 2023 06:39:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/lamport-clocks/</guid>
+      
+        <description>Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

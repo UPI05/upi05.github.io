@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pbft on Hieu Vo</title>
+    <link>https://upi05.github.io/tags/pbft/</link>
+    <description>Recent content in pbft on Hieu Vo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 May 2023 14:28:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/pbft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So sánh HotStuff BFT với Practical BFT</title>
+      <link>https://upi05.github.io/posts/hotstuff-vs-pbft/</link>
+      <pubDate>Fri, 12 May 2023 14:28:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/hotstuff-vs-pbft/</guid>
+      
+        <description>Từ khi PBFT (Practical Byzantine Fault Tolerance) ra đời, đã có nhiều giải pháp được đề xuất nhằm cải tiến PBFT như BFT-SMaRt, Zyzzyva, SBFT, &amp;hellip; trong đó có cả HotStuff BFT.</description>
+      
+    </item>
+    
+    <item>
+      <title>Practical byzantine fault tolerance</title>
+      <link>https://upi05.github.io/posts/practical_byzantine_fault_tolerance/</link>
+      <pubDate>Tue, 09 May 2023 09:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/practical_byzantine_fault_tolerance/</guid>
+      
+        <description>Pbft là giải thuật chống lỗi byzantine đầu tiên có thể chạy được trên mạng bất đồng bộ (như internet).</description>
+      
+    </item>
+    
+  </channel>
+</rss>

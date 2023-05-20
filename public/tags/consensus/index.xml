@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>consensus on Hieu Vo</title>
+    <link>https://upi05.github.io/tags/consensus/</link>
+    <description>Recent content in consensus on Hieu Vo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 May 2023 09:11:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/consensus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practical byzantine fault tolerance</title>
+      <link>https://upi05.github.io/posts/practical_byzantine_fault_tolerance/</link>
+      <pubDate>Tue, 09 May 2023 09:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/practical_byzantine_fault_tolerance/</guid>
+      
+        <description>Pbft là giải thuật chống lỗi byzantine đầu tiên có thể chạy được trên mạng bất đồng bộ (như internet).</description>
+      
+    </item>
+    
+  </channel>
+</rss>

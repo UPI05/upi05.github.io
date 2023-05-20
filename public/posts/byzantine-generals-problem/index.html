@@ -397,7 +397,7 @@
 <p>Nếu Commander trung thành thì tất cả các lieutenants phải thực thi lệnh mà Commander đó gửi.</p>
 </blockquote>
 <h3 id="giải-thuật-oral-message">Giải thuật Oral Message:</h3>
-<p><img src="https://images.viblo.asia/439684bc-7461-47c8-ad23-e1bcc3c8ab78.jpg" alt=""></p>
+<p><img src="../../images/byzantine-generals-problem-img2.jpg" alt="oral message algorithm"></p>
 <p>Để sử dụng giải thuật Oral Message, người ta đặt ra các giả thiết sau:</p>
 <blockquote>
 <p>A1. Mỗi message trong mạng được chuyển đến đúng nơi cần gửi.</p>
@@ -408,12 +408,12 @@
 <blockquote>
 <p>A3. Có thể phát hiện sự mất mát của một số message.</p>
 </blockquote>
-<p><img src="https://images.viblo.asia/8d5f4ac2-35f0-47ac-a8d5-1c0197517e8e.jpg" alt=""></p>
+<p><img src="../../images/byzantine-generals-problem-img3.jpg" alt="Fig.4"></p>
 <p>Mọi người có thể xem qua hình minh họa fig.4, ở ví dụ này ta cần chạy OM(m) với m = 1. Giá trị m chính là số lượng node lỗi trong mạng mà ta ước chừng.
 Đầu tiên, Commander thực hiện lần lượt gửi các giá trị x, y, z cho từng lieutenant (vì Commander không trung thành nên gửi các giá trị khác nhau). Khi Lieutenant 1 nhận được giá trị x, nó trở thành Commander cho lần đệ quy OM(0) và forward giá trị x đến lieutenant 2 và 3. Tương tự lieutenant 1, sau khi lieutenant 2, 3 nhận được giá trị y, z từ Commander, nó cũng lên làm Commander cho lần đệ quy OM(0) tiếp theo và forward các giá trị nhận được. Kết thúc, cả 3 lieutenant đều nhận được giá trị {x, y, z}, không có giá trị nào chiếm đa số hết nên các lieutenant sẽ chọn giá trị mặc định, cụ thể là &ldquo;retreat&rdquo;. Như vậy, đảm bảo được tính đồng nhất của cả 3 lieutenant vì cả 3 đều trung thành.</p>
 <p><strong>Impossibility result</strong>: Người ta chứng minh được rằng, nếu chỉ sử dụng cách truyền miệng để gửi tin (không đảm bảo tính toàn vẹn của dữ liệu vì message có thể bị làm giả) thì nếu muốn chống f node bị lỗi, bắt buộc phải có tối thiểu 3f + 1 node hoạt động.</p>
 <h3 id="giải-thuật-signed-message">Giải thuật Signed Message:</h3>
-<p><img src="images/byzantine-generals-problem-img1.jpg" alt="siged message algorithm"></p>
+<p><img src="../../images/byzantine-generals-problem-img1.jpg" alt="siged message algorithm"></p>
 <p>Giải thuật Oral Message khó là do dữ liệu được truyền đi trong mạng nhưng không được đảm bảo tính toàn vẹn (ai cũng có thể giả mạo). Do vậy, người ta đưa thêm vào giả thuyết sử dụng chữ kí để dễ dàng hơn trong việc thực hiện:</p>
 <blockquote>
 <p>A4. a. Bất kì sự thay thế nhỏ nào của message cũng có thể dễ dàng bị phát hiện.</p>
@@ -428,7 +428,7 @@ Nếu V chỉ chứa 1 giá trị v thì Choice(V) = v
 Khác hai trường hợp trên thì giá trị của Choice(V) là phần tử trung vị của V.</p>
 </blockquote>
 <p>Còn với message (v:0:j1:j2:&hellip;jk) nghĩa là lệnh v (&ldquo;attack&rdquo; hoặc &ldquo;retreat&rdquo;) được kí bởi general 0 (hay Commander) sau đó được kí tiếp bởi lieutenant j1, &hellip; j2 &hellip; jk.</p>
-<p><img src="https://images.viblo.asia/8262809b-599c-4b2d-a044-3c0cd7c3fac2.jpg" alt=""></p>
+<p><img src="../../images/byzantine-generals-problem-img3.jpg" alt="Fig.5"></p>
 <p>Ở fig.5, đầu tiên Commander (là kẻ phản bội) thực hiện kí và gửi (&ldquo;attack&rdquo;: 0) đến lieutenant 1 và (&ldquo;retreat&rdquo;: 0) đến lieutenant 2. Ở bước 2, vì lieutenant 1 nhận message có dạng (v:0) nên lieutenant 1 ghi nhận giá trị v (&ldquo;attack&rdquo;) vào V1, đồng thời kí và gửi đến lieutenant còn lại là lieutenant 2 với message (&ldquo;attack&rdquo;:0:1). Cũng tương tự, lieutenant 2 ghi nhận giá trị v (&ldquo;retreat&rdquo;) vào V2, đồng thời gửi message (&ldquo;retreat&rdquo;:0:2) đến lieutenant 1. Khi lieutenant 1 nhận được message (&ldquo;retreat&rdquo;:0:2), vì k = 1 (không bé hơn m = 1) nên dừng tại đây, cũng tương tự cho trường hợp của lieutenant 2. Đến bước 3, cả hai lieutenant thực hiện tổng hợp qua hàm Choice(Vi). Vì V1 và V2 đều là {&ldquo;attack&rdquo;, &ldquo;retreat&rdquo;} (giống nhau) nên lệnh thực hiện của cả hai lieutenant cũng giống nhau. Như vậy, tính nhất quán được đảm bảo.</p>
 <h3 id="missing-communication-paths">Missing communication paths:</h3>
 <p>Cả giải thuật Oral Message và Signed Message ở trên đều đang xét trong trường hợp đơn đồ thị vô hướng đầy đủ, khi đó mỗi đỉnh đều có đường đi trực tiếp đến tất cả các đỉnh còn lại. Tuy nhiên, trong thực tế người ta không làm như thế mà xem xét đơn đồ thị vô hướng có bậc 3m, với m là số node lỗi. Từ đó người ta mở rộng giải thuật Oral Message xem xét trên đơn đồ thị bậc 3m và chứng minh được rằng giải thuật đó có thể chống được f node lỗi nếu đồ thị đó là đơn đồ thị vô hướng bậc 3m. Tương tự cho giải thuật mở rộng của Signed Message, mọi người nếu hứng thú có thể đọc thêm.</p>

@@ -10,7 +10,7 @@
   <title>
     Hieu Vo
         |
-        Lời tựa
+        Đồng hồ Lamport
       
 
     
@@ -85,7 +85,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon.icofavicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon.icofavicon-16x16.png" />
 
-  <link rel="canonical" href="https://upi05.github.io/about/" />
+  <link rel="canonical" href="https://upi05.github.io/posts/lamport-clocks/" />
 
   
   
@@ -114,18 +114,18 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Lời tựa"/>
-<meta name="twitter:description" content="Chào mọi người !!! Mình tên thật là Võ Trường Trung Hiếu."/>
+<meta name="twitter:title" content="Đồng hồ Lamport"/>
+<meta name="twitter:description" content="Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận."/>
 
 
 
   
-  <meta property="og:title" content="Lời tựa" />
-<meta property="og:description" content="Chào mọi người !!! Mình tên thật là Võ Trường Trung Hiếu." />
+  <meta property="og:title" content="Đồng hồ Lamport" />
+<meta property="og:description" content="Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://upi05.github.io/about/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2023-05-20T07:43:04+07:00" />
-<meta property="article:modified_time" content="2023-05-20T07:43:04+07:00" /><meta property="og:site_name" content="I&#39;m Hieu Vo" />
+<meta property="og:url" content="https://upi05.github.io/posts/lamport-clocks/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-08T06:39:00+00:00" />
+<meta property="article:modified_time" content="2023-05-08T06:39:00+00:00" /><meta property="og:site_name" content="I&#39;m Hieu Vo" />
 
 
 
@@ -137,13 +137,13 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "articleSection": "",
-        "name": "Lời tựa",
-        "headline": "Lời tựa",
+        "articleSection": "posts",
+        "name": "Đồng hồ Lamport",
+        "headline": "Đồng hồ Lamport",
         "alternativeHeadline": "",
         "description": "
       
-        Chào mọi người !!! Mình tên thật là Võ Trường Trung Hiếu.
+        Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận.
 
 
       
@@ -154,7 +154,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/upi05.github.io\/about\/"
+            "@id": "https:\/\/upi05.github.io\/posts\/lamport-clocks\/"
         },
         "author" : {
             "@type": "Person",
@@ -173,9 +173,9 @@
             "name": "Hieu Vo"
         },
         "copyrightYear" : "2023",
-        "dateCreated": "2023-05-20T07:43:04.00Z",
-        "datePublished": "2023-05-20T07:43:04.00Z",
-        "dateModified": "2023-05-20T07:43:04.00Z",
+        "dateCreated": "2023-05-08T06:39:00.00Z",
+        "datePublished": "2023-05-08T06:39:00.00Z",
+        "dateModified": "2023-05-08T06:39:00.00Z",
         "publisher":{
             "@type":"Organization",
             "name": "Hieu Vo",
@@ -192,10 +192,28 @@
       ]
 
     ,
-        "url" : "https:\/\/upi05.github.io\/about\/",
-        "wordCount" : "49",
+        "url" : "https:\/\/upi05.github.io\/posts\/lamport-clocks\/",
+        "wordCount" : "720",
         "genre" : [ ],
-        "keywords" : [ ]
+        "keywords" : [ 
+      
+      "lamport_clock"
+
+    
+      
+        ,
+
+      
+      "distributed_system"
+
+    
+      
+        ,
+
+      
+      "blockchain"
+
+    ]
     }
   </script>
 
@@ -327,8 +345,6 @@
             
             <a
               
-                class="nav__link--active"
-              
               href="/about/"
               
               title=""
@@ -360,13 +376,51 @@
     "
   >
     
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/thumbnail/thumbnail3.jpg" alt="Thumbnail image" />
+      </div>
+    
     <div class="post__content">
-      <h1>Lời Tựa</h1>
-      <p>Chào mọi người !!! Mình tên thật là Võ Trường Trung Hiếu. Hiện tại mình đang theo học ngành An toàn thông tin.</p>
-<p>Blog này được dùng để chia sẻ lại những kiến thức thú vị mà mình tiếp thu được. Cảm ơn mọi người đã quan tâm :D</p>
+      <h1>Đồng Hồ Lamport</h1>
+      <p>Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận. Tuy nhiên, việc sử dụng đồng hồ vật lý có nhiều hạn chế do độ trễ lan truyền nên thời điểm ghi nhận một message đến các node có thể khác nhau (không đảm bảo giống nhau 100%). Do đó, Lamport đề xuất sử dụng đồng hồ logic (logical clock) để đồng bộ thời gian của các sự kiện trong hệ thống phân tán.
+Khái niệm đồng hồ logic không phải là đồng hồ thông thường mà là sử dụng các số nguyên không âm để đánh dấu mốc thời gian của các sự kiện. Thời gian của các sự kiện được tính dựa trên thời gian của các sự kiện trước đó. Ví dụ: Nếu sự kiện A xảy ra trước sự kiện B thì thời gian của A sẽ nhỏ hơn B. Các mốc thời gian được đánh dấu có thể rời rạc nhau.</p>
+<blockquote>
+<p>Bài viết xem xét các sự kiện xảy ra trên các process. Các sự kiện có thể là process Pi gửi message đến process Pj, process Pi đọc, ghi…. Mỗi process i sẽ có một đồng hồ Lamport Ci riêng để đánh dấu thời gian.</p>
+</blockquote>
+<h3 id="partial-order">Partial order:</h3>
+<p>Mối quan hệ “xảy ra trước” (kí hiệu →) giữa 2 sự kiện bất kì được định nghĩa thỏa mãn 3 điểu kiện sau:</p>
+<blockquote>
+<p>Nếu a và b là 2 sự kiện trong cùng 1 process và a xảy ra trước b thì a→b
+Nếu a là sự kiện gửi một message ở process A và b là sự kiện nhận message đó ở process B thì a→b
+Nếu a→b và b→c thì a→c (tính chất bắc cầu)</p>
+</blockquote>
+<p>Hai sự kiện khác nhau a và b được gọi là xảy ra đồng thời nếu a không xảy ra trước b và b không xảy ra trước a.</p>
+<p>Clock condition: Cho 2 sự kiện a, b: a→b thì C(a) &lt; C(b)</p>
+<p>Dễ dàng nhận thấy các điều kiện sau:</p>
+<blockquote>
+<p>CC1: Nếu a và b là 2 sự kiện trong cùng process i và a xảy ra trước b thì Ci(a) &lt; Ci(b).
+CC2: Nếu a là sự kiện gửi một message ở process i và b là sự kiện nhận message đó ở process j thì Ci(a) &lt; Cj(b).</p>
+</blockquote>
+<p><strong>Giải thuật</strong>:</p>
+<p>Để đảm bảo hệ thống thỏa mãn Clock condition thì CC1 và CC2 phải thỏa. Để giải quyết CC1, process i chỉ cần tăng Ci lên 1 đơn vị khi có sự kiện xảy ra thành công. Với CC2, khi gửi message thì process i (sender) cần gửi thêm Tm là thời điểm process i gửi message đó. Khi đó, Cj (đồng hồ ở process receiver) sẽ cập nhật lại thành max(Cj, Tm) + 1.</p>
+<p><img src="../../images/lamport-clock.jpg" alt="Lamport clock"></p>
+<p>Để minh họa, mọi người xem qua ảnh đính kèm: Sự kiện bắt đầu của P2 được đánh dấu là 1. Sự kiện tiếp theo, P2 gửi message sang P1 nên thời điểm gửi được tăng lên 2, thời điểm nhận là max(2, 1) + 1 = 3. Tương tự, khi P3 gửi message, thời điểm gửi sẽ tăng thành 2, local clock của P2 là 4 nên thời điểm nhận sẽ là max(2, 4) + 1 = 5.</p>
+<h3 id="total-order">Total order:</h3>
+<p>Giải thuật ở trên chỉ sắp xếp một phần thứ tự của các sự kiện vì khi hai sự kiện xảy ra đồng thời, chúng cũng cần được sắp xếp. Lamport đề xuất gán số thứ tự (duy nhất) cho các process, khi đó nếu hai sự kiện xảy ra đồng thời thì sự kiện nào xảy ra trên process có số thứ tự nhỏ hơn sẽ được xếp trước. Mặc dù cách làm này đơn giản nhưng lại khó thực hiện trong thực tế, đặc biệt là các hệ thống lớn.</p>
+<p>Cho sự kiện a ở process i, b ở process j:</p>
+<blockquote>
+<p>Nếu Ci(a) &lt; Cj(b) thì a→b
+Ngược lại nếu Ci(a) = Cj(b) và i &lt; j thì a→b</p>
+</blockquote>
+<p>Đồng hồ Lamport hoạt động khá đơn giản nhưng là tiền đề cho giải thuật nâng cao hơn sau này là đồng hồ Vector (Vector Clock).</p>
+<p>Tham khảo: Leslie Lamport. 1978. Time, clocks, and the ordering of events in a distributed system. Commun. ACM 21, 7 (July 1978), 558-565.</p>
 </div>
     <div class="post__footer">
       
+
+      
+        <span><a class="tag" href="/tags/lamport_clock/">lamport_clock</a><a class="tag" href="/tags/distributed_system/">distributed_system</a><a class="tag" href="/tags/blockchain/">blockchain</a></span>
+
 
       
     </div>

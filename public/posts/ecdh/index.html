@@ -10,7 +10,7 @@
   <title>
     Hieu Vo
         |
-        BFT
+        Trao đổi khóa Diffie-Hellman trên đường cong Elliptic
       
 
     
@@ -85,10 +85,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon.icofavicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon.icofavicon-16x16.png" />
 
-  <link rel="canonical" href="https://upi05.github.io/tags/bft/" />
+  <link rel="canonical" href="https://upi05.github.io/posts/ecdh/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/tags/bft/index.xml" title="Hieu Vo" />
   
   
   
@@ -115,21 +114,123 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="BFT"/>
-<meta name="twitter:description" content="Blockchain Research Assistant at Vietnam Blockchain Innovation - VBI"/>
+<meta name="twitter:title" content="Trao đổi khóa Diffie-Hellman trên đường cong Elliptic"/>
+<meta name="twitter:description" content="Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 &#43; ax &#43; b (4a^3 &#43; 27b^2 ≠ 0)."/>
 
 
 
   
-  <meta property="og:title" content="BFT" />
-<meta property="og:description" content="Blockchain Research Assistant at Vietnam Blockchain Innovation - VBI" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://upi05.github.io/tags/bft/" /><meta property="og:site_name" content="I&#39;m Hieu Vo" />
+  <meta property="og:title" content="Trao đổi khóa Diffie-Hellman trên đường cong Elliptic" />
+<meta property="og:description" content="Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 &#43; ax &#43; b (4a^3 &#43; 27b^2 ≠ 0)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://upi05.github.io/posts/ecdh/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-03T12:52:00+00:00" />
+<meta property="article:modified_time" content="2023-04-03T12:52:00+00:00" /><meta property="og:site_name" content="I&#39;m Hieu Vo" />
 
 
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "Trao đổi khóa Diffie-Hellman trên đường cong Elliptic",
+        "headline": "Trao đổi khóa Diffie-Hellman trên đường cong Elliptic",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 \u002b ax \u002b b (4a^3 \u002b 27b^2 ≠ 0).
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/upi05.github.io\/posts\/ecdh\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Hieu Vo"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Hieu Vo"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Hieu Vo"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Hieu Vo"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-04-03T12:52:00.00Z",
+        "datePublished": "2023-04-03T12:52:00.00Z",
+        "dateModified": "2023-04-03T12:52:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Hieu Vo",
+            "url": "https://upi05.github.io",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/upi05.github.io\/favicons\/favicon.icofavicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/upi05.github.io\/posts\/ecdh\/",
+        "wordCount" : "375",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "elliptic_curve"
+
+    
+      
+        ,
+
+      
+      "ecdh"
+
+    
+      
+        ,
+
+      
+      "elliptic curve diffie-hellman"
+
+    
+      
+        ,
+
+      
+      "cryptography"
+
+    
+      
+        ,
+
+      
+      "blockchain"
+
+    ]
+    }
+  </script>
+
 
 </head>
 <body class="body">
@@ -284,41 +385,39 @@
 </div>
 </header>
   <div
-    class="archive 
+    class="post 
       animated fadeInDown
     "
   >
     
-      <div class="archive__heading">2023</div>
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/thumbnail/thumbnail7.jpg" alt="Thumbnail image" />
+      </div>
+    
+    <div class="post__content">
+      <h1>Trao Đổi Khóa Diffie-Hellman Trên Đường Cong Elliptic</h1>
+      <p><img src="../../thumbnail/thumbnail7.jpg" alt="elliptic curve"></p>
+<p>Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 + ax + b (4a^3 + 27b^2 ≠ 0).</p>
+<blockquote>
+<p>Phép cộng trên đường cong: Cho hai điểm P, Q trên đường cong. Qua P và Q kẻ đường thẳng cắt đường cong E tại điểm thứ ba là R&rsquo;. Lấy đối xứng R&rsquo; qua trục hoành được điểm R, khi đó P + Q = R. Trong trường hợp P trùng Q, ta kẻ đường tiếp tuyến tại P và làm tương tự như trên.
+Phép nhân vô hướng trên đường cong: Phép nhân vô hướng một số n với một điểm P trên đường cong chính là thực hiện cộng n lần điểm P lại với nhau. VD: 3P = P + P + P.</p>
+</blockquote>
+<p>Trong trường hữu hạn Fp, việc tìm ra giá trị n khi cho trước P, Q và Q = nP là rất khó do độ phức tạp của bài toán Logarit rời rạc. Vì vậy, giả sử Alice và Bob muốn trao đổi khóa cho nhau, họ có thể làm như sau:</p>
+<p>Bước 1: Alice và Bob cùng thỏa thuận tham số của đường cong Elliptic như a, b, điểm sinh G, p, &hellip;</p>
+<p>Bước 2: Alice chọn giá trị nA làm private key, sau đó tính public key Qa = nA<em>G. Tương tự với Bob, chọn private key nB sau đó tính public key Qb = nB</em>G.</p>
+<p>Bước 3: Alice gửi public key của mình là Qa cho Bob và Bob cũng gửi public key của mình là Qb cho Alice.</p>
+<p>Bước 4: Alice lấy private key của mình nhân với public key của Bob và ngược lại Bob cũng lấy private key của mình nhân với public key của Alice để ra được khóa chung: sharedKey = nA * Qb = nB * Qa = nA * nB * G.</p>
+<p>Mỗi đường cong Elliptic có độ an toàn khác nhau trong việc trao đổi khóa. Do đó, để đảm bảo độ an toàn và thống nhất giữa các bên, người ta tạo ra một số curve phổ biến bao gồm Curve25519, Curve448, secp256k1, NIST P-256, NIST P-384, NIST P-521 … Trong đó, secp256k1 là curve có độ dài khóa 256 bit được ứng dụng trong Bitcoin.</p>
+</div>
+    <div class="post__footer">
       
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/posts/hotstuff-vs-pbft/" title="So sánh HotStuff BFT với Practical BFT">So sánh HotStuff BFT với Practical BFT</a>
-            <div class="archive__list-date">
-              
-                
-                  May 12
-                
 
-              
-            </div>
-          </li>
-        </ul>
       
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/posts/byzantine-generals-problem/" title="Byzantine generals problem">Byzantine generals problem</a>
-            <div class="archive__list-date">
-              
-                
-                  Apr 16
-                
+        <span><a class="tag" href="/tags/elliptic_curve/">elliptic_curve</a><a class="tag" href="/tags/ecdh/">ecdh</a><a class="tag" href="/tags/elliptic-curve-diffie-hellman/">elliptic curve diffie-hellman</a><a class="tag" href="/tags/cryptography/">cryptography</a><a class="tag" href="/tags/blockchain/">blockchain</a></span>
 
-              
-            </div>
-          </li>
-        </ul>
+
       
+    </div>
 
     
   </div>

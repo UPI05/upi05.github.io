@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network on Hieu Vo</title>
+    <link>https://upi05.github.io/tags/network/</link>
+    <description>Recent content in network on Hieu Vo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 May 2023 19:44:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synchrony, Asynchrony và Partial Synchrony</title>
+      <link>https://upi05.github.io/posts/network_synchrony/</link>
+      <pubDate>Thu, 11 May 2023 19:44:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/network_synchrony/</guid>
+      
+        <description>Trong hệ thống phân tán, người ta thường phân mạng (network) thành 3 loại:</description>
+      
+    </item>
+    
+  </channel>
+</rss>
