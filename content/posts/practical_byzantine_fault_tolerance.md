@@ -1,6 +1,6 @@
 +++
 title = "Practical byzantine fault tolerance"
-date = 2023-04-03T12:52:00
+date = 2023-05-09T09:11:00
 tags = [
 "pbft",
 "consensus",
