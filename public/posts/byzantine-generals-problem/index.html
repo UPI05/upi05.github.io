@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    Hieu Vo
+        |
+        Byzantine generals problem
+      
+
+    
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.110.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Hieu Vo" />
+  <meta
+    name="description"
+    content="Blockchain Research Assistant at Vietnam Blockchain Innovation - VBI"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.1147aa5bacb4bce677a0e264073829caedb82fd18ea07a5f1d80521f539d1c45.css"
+      integrity="sha256-EUeqW6y0vOZ3oOJkBzgpyu24L9GOoHpfHYBSH1OdHEU="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.icofavicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon.icoapple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="favicons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon.icofavicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon.icofavicon-16x16.png" />
+
+  <link rel="canonical" href="https://upi05.github.io/posts/byzantine-generals-problem/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Byzantine generals problem"/>
+<meta name="twitter:description" content="Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui)."/>
+
+
+
+  
+  <meta property="og:title" content="Byzantine generals problem" />
+<meta property="og:description" content="Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://upi05.github.io/posts/byzantine-generals-problem/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-16T14:48:00+00:00" />
+<meta property="article:modified_time" content="2023-04-16T14:48:00+00:00" /><meta property="og:site_name" content="I&#39;m Hieu Vo" />
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "Byzantine generals problem",
+        "headline": "Byzantine generals problem",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui).
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/upi05.github.io\/posts\/byzantine-generals-problem\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Hieu Vo"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Hieu Vo"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Hieu Vo"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Hieu Vo"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-04-16T14:48:00.00Z",
+        "datePublished": "2023-04-16T14:48:00.00Z",
+        "dateModified": "2023-04-16T14:48:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Hieu Vo",
+            "url": "https://upi05.github.io",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/upi05.github.io\/favicons\/favicon.icofavicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/upi05.github.io\/posts\/byzantine-generals-problem\/",
+        "wordCount" : "993",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "byzantine"
+
+    
+      
+        ,
+
+      
+      "BFT"
+
+    
+      
+        ,
+
+      
+      "blockchain"
+
+    ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/logo2.png"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">I&#39;m Hieu Vo</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>Blockchain Research Assistant at Vietnam Blockchain Innovation - VBI</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:votruongtrunghieu@gmail.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/upi05"
+            target="_blank"
+            rel="noopener me"
+            aria-label="github"
+            title="github"
+          >
+            <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://viblo.asia/u/upi05"
+            target="_blank"
+            rel="noopener me"
+            aria-label="viblo"
+            title="viblo"
+          >
+            <i class="fa-solid fa-blog fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Hieu Vo
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/thumbnail/thumbnail2.png" alt="Thumbnail image" />
+      </div>
+    
+    <div class="post__content">
+      <h1>Byzantine Generals Problem</h1>
+      <p>Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui). Nếu một số vị tướng quân trung thành đưa ra quyết định mâu thuẫn với các vị tướng quân trung thành còn lại thì hành động sẽ thất bại. Như vậy, để giải bài toán ta cần đảm bảo rằng:</p>
+<blockquote>
+<p>Tất cả các vị tướng trung thành đều ra cùng một quyết định.</p>
+</blockquote>
+<blockquote>
+<p>Một số lượng nhỏ kẻ phản bội không thể làm thất bại hành động.</p>
+</blockquote>
+<p>Để giải bài toán trên, người ta đưa về bài toán Commander và Lieutenants. Tức là sẽ có một người đứng ra làm chỉ huy và gửi lệnh &ldquo;attack&rdquo; hoặc &ldquo;retreat&rdquo; ban đầu. Chú ý là Commander vẫn có thể là kẻ phản bội. Khi đó, người ta chuyển điều kiện lại thành:</p>
+<blockquote>
+<p>Tất cả lieutenants thực thi cùng một lệnh (&ldquo;attack&rdquo; hoặc &ldquo;retreat&rdquo;)</p>
+</blockquote>
+<blockquote>
+<p>Nếu Commander trung thành thì tất cả các lieutenants phải thực thi lệnh mà Commander đó gửi.</p>
+</blockquote>
+<h3 id="giải-thuật-oral-message">Giải thuật Oral Message:</h3>
+<p><img src="https://images.viblo.asia/439684bc-7461-47c8-ad23-e1bcc3c8ab78.jpg" alt=""></p>
+<p>Để sử dụng giải thuật Oral Message, người ta đặt ra các giả thiết sau:</p>
+<blockquote>
+<p>A1. Mỗi message trong mạng được chuyển đến đúng nơi cần gửi.</p>
+</blockquote>
+<blockquote>
+<p>A2. Người nhận message biết ai là người gửi.</p>
+</blockquote>
+<blockquote>
+<p>A3. Có thể phát hiện sự mất mát của một số message.</p>
+</blockquote>
+<p><img src="https://images.viblo.asia/8d5f4ac2-35f0-47ac-a8d5-1c0197517e8e.jpg" alt=""></p>
+<p>Mọi người có thể xem qua hình minh họa fig.4, ở ví dụ này ta cần chạy OM(m) với m = 1. Giá trị m chính là số lượng node lỗi trong mạng mà ta ước chừng.
+Đầu tiên, Commander thực hiện lần lượt gửi các giá trị x, y, z cho từng lieutenant (vì Commander không trung thành nên gửi các giá trị khác nhau). Khi Lieutenant 1 nhận được giá trị x, nó trở thành Commander cho lần đệ quy OM(0) và forward giá trị x đến lieutenant 2 và 3. Tương tự lieutenant 1, sau khi lieutenant 2, 3 nhận được giá trị y, z từ Commander, nó cũng lên làm Commander cho lần đệ quy OM(0) tiếp theo và forward các giá trị nhận được. Kết thúc, cả 3 lieutenant đều nhận được giá trị {x, y, z}, không có giá trị nào chiếm đa số hết nên các lieutenant sẽ chọn giá trị mặc định, cụ thể là &ldquo;retreat&rdquo;. Như vậy, đảm bảo được tính đồng nhất của cả 3 lieutenant vì cả 3 đều trung thành.</p>
+<p><strong>Impossibility result</strong>: Người ta chứng minh được rằng, nếu chỉ sử dụng cách truyền miệng để gửi tin (không đảm bảo tính toàn vẹn của dữ liệu vì message có thể bị làm giả) thì nếu muốn chống f node bị lỗi, bắt buộc phải có tối thiểu 3f + 1 node hoạt động.</p>
+<h3 id="giải-thuật-signed-message">Giải thuật Signed Message:</h3>
+<p><img src="images/byzantine-generals-problem-img1.jpg" alt="siged message algorithm"></p>
+<p>Giải thuật Oral Message khó là do dữ liệu được truyền đi trong mạng nhưng không được đảm bảo tính toàn vẹn (ai cũng có thể giả mạo). Do vậy, người ta đưa thêm vào giả thuyết sử dụng chữ kí để dễ dàng hơn trong việc thực hiện:</p>
+<blockquote>
+<p>A4. a. Bất kì sự thay thế nhỏ nào của message cũng có thể dễ dàng bị phát hiện.</p>
+</blockquote>
+<blockquote>
+<p>A4. b. Bất kỳ ai cũng có thể verify tính xác thực của chữ kí.</p>
+</blockquote>
+<p>Để hiểu sơ cách chạy của thuật toán này, mọi người xem qua fig.5. Trước tiên, có hai thứ mọi người cần phải lưu ý là hàm Choice và message (v:0:j1:j2:&hellip;:jk). Hàm choice(V) là hàm đưa ra quyết định từ các lệnh nhận được trong V. Hàm Choice(V) quy ước như sau:</p>
+<blockquote>
+<p>Nếu V rỗng thì giá trị Choice(V) = &ldquo;retreat&rdquo;
+Nếu V chỉ chứa 1 giá trị v thì Choice(V) = v
+Khác hai trường hợp trên thì giá trị của Choice(V) là phần tử trung vị của V.</p>
+</blockquote>
+<p>Còn với message (v:0:j1:j2:&hellip;jk) nghĩa là lệnh v (&ldquo;attack&rdquo; hoặc &ldquo;retreat&rdquo;) được kí bởi general 0 (hay Commander) sau đó được kí tiếp bởi lieutenant j1, &hellip; j2 &hellip; jk.</p>
+<p><img src="https://images.viblo.asia/8262809b-599c-4b2d-a044-3c0cd7c3fac2.jpg" alt=""></p>
+<p>Ở fig.5, đầu tiên Commander (là kẻ phản bội) thực hiện kí và gửi (&ldquo;attack&rdquo;: 0) đến lieutenant 1 và (&ldquo;retreat&rdquo;: 0) đến lieutenant 2. Ở bước 2, vì lieutenant 1 nhận message có dạng (v:0) nên lieutenant 1 ghi nhận giá trị v (&ldquo;attack&rdquo;) vào V1, đồng thời kí và gửi đến lieutenant còn lại là lieutenant 2 với message (&ldquo;attack&rdquo;:0:1). Cũng tương tự, lieutenant 2 ghi nhận giá trị v (&ldquo;retreat&rdquo;) vào V2, đồng thời gửi message (&ldquo;retreat&rdquo;:0:2) đến lieutenant 1. Khi lieutenant 1 nhận được message (&ldquo;retreat&rdquo;:0:2), vì k = 1 (không bé hơn m = 1) nên dừng tại đây, cũng tương tự cho trường hợp của lieutenant 2. Đến bước 3, cả hai lieutenant thực hiện tổng hợp qua hàm Choice(Vi). Vì V1 và V2 đều là {&ldquo;attack&rdquo;, &ldquo;retreat&rdquo;} (giống nhau) nên lệnh thực hiện của cả hai lieutenant cũng giống nhau. Như vậy, tính nhất quán được đảm bảo.</p>
+<h3 id="missing-communication-paths">Missing communication paths:</h3>
+<p>Cả giải thuật Oral Message và Signed Message ở trên đều đang xét trong trường hợp đơn đồ thị vô hướng đầy đủ, khi đó mỗi đỉnh đều có đường đi trực tiếp đến tất cả các đỉnh còn lại. Tuy nhiên, trong thực tế người ta không làm như thế mà xem xét đơn đồ thị vô hướng có bậc 3m, với m là số node lỗi. Từ đó người ta mở rộng giải thuật Oral Message xem xét trên đơn đồ thị bậc 3m và chứng minh được rằng giải thuật đó có thể chống được f node lỗi nếu đồ thị đó là đơn đồ thị vô hướng bậc 3m. Tương tự cho giải thuật mở rộng của Signed Message, mọi người nếu hứng thú có thể đọc thêm.</p>
+</div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/tags/byzantine/">byzantine</a><a class="tag" href="/tags/bft/">BFT</a><a class="tag" href="/tags/blockchain/">blockchain</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Hieu Vo
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

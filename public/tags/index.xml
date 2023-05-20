@@ -6,13 +6,13 @@
     <description>Recent content in Tags on Hieu Vo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Apr 2023 12:52:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 14:48:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>aptos</title>
-      <link>https://upi05.github.io/tags/aptos/</link>
-      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
+      <title>BFT</title>
+      <link>https://upi05.github.io/tags/bft/</link>
+      <pubDate>Sun, 16 Apr 2023 14:48:00 +0000</pubDate>
       
-      <guid>https://upi05.github.io/tags/aptos/</guid>
+      <guid>https://upi05.github.io/tags/bft/</guid>
       
         <description></description>
       
@@ -21,9 +21,31 @@
     <item>
       <title>blockchain</title>
       <link>https://upi05.github.io/tags/blockchain/</link>
-      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
+      <pubDate>Sun, 16 Apr 2023 14:48:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/blockchain/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>byzantine</title>
+      <link>https://upi05.github.io/tags/byzantine/</link>
+      <pubDate>Sun, 16 Apr 2023 14:48:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/byzantine/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>aptos</title>
+      <link>https://upi05.github.io/tags/aptos/</link>
+      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/aptos/</guid>
       
         <description></description>
       

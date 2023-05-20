@@ -26,8 +26,10 @@ Bài toán các vị tướng quân Byzantine được đề cập như sau: Có
 
 > Nếu Commander trung thành thì tất cả các lieutenants phải thực thi lệnh mà Commander đó gửi.
 
-Các bước cụ thể của giải thuật mọi người có thể xem qua ảnh đính kèm.
-Giải thuật Oral Message:
+### Giải thuật Oral Message:
+
+![](https://images.viblo.asia/439684bc-7461-47c8-ad23-e1bcc3c8ab78.jpg)
+
 Để sử dụng giải thuật Oral Message, người ta đặt ra các giả thiết sau:
 
 > A1. Mỗi message trong mạng được chuyển đến đúng nơi cần gửi.
@@ -36,10 +38,12 @@ Giải thuật Oral Message:
 
 > A3. Có thể phát hiện sự mất mát của một số message.
 
+![](https://images.viblo.asia/8d5f4ac2-35f0-47ac-a8d5-1c0197517e8e.jpg)
+
 Mọi người có thể xem qua hình minh họa fig.4, ở ví dụ này ta cần chạy OM(m) với m = 1. Giá trị m chính là số lượng node lỗi trong mạng mà ta ước chừng.
 Đầu tiên, Commander thực hiện lần lượt gửi các giá trị x, y, z cho từng lieutenant (vì Commander không trung thành nên gửi các giá trị khác nhau). Khi Lieutenant 1 nhận được giá trị x, nó trở thành Commander cho lần đệ quy OM(0) và forward giá trị x đến lieutenant 2 và 3. Tương tự lieutenant 1, sau khi lieutenant 2, 3 nhận được giá trị y, z từ Commander, nó cũng lên làm Commander cho lần đệ quy OM(0) tiếp theo và forward các giá trị nhận được. Kết thúc, cả 3 lieutenant đều nhận được giá trị {x, y, z}, không có giá trị nào chiếm đa số hết nên các lieutenant sẽ chọn giá trị mặc định, cụ thể là "retreat". Như vậy, đảm bảo được tính đồng nhất của cả 3 lieutenant vì cả 3 đều trung thành.
 
-Impossibility result: Người ta chứng minh được rằng, nếu chỉ sử dụng cách truyền miệng để gửi tin (không đảm bảo tính toàn vẹn của dữ liệu vì message có thể bị làm giả) thì nếu muốn chống f node bị lỗi, bắt buộc phải có tối thiểu 3f + 1 node hoạt động.
+**Impossibility result**: Người ta chứng minh được rằng, nếu chỉ sử dụng cách truyền miệng để gửi tin (không đảm bảo tính toàn vẹn của dữ liệu vì message có thể bị làm giả) thì nếu muốn chống f node bị lỗi, bắt buộc phải có tối thiểu 3f + 1 node hoạt động.
 
 ### Giải thuật Signed Message:
 
@@ -58,6 +62,8 @@ Giải thuật Oral Message khó là do dữ liệu được truyền đi trong 
 > Khác hai trường hợp trên thì giá trị của Choice(V) là phần tử trung vị của V.
 
 Còn với message (v:0:j1:j2:...jk) nghĩa là lệnh v ("attack" hoặc "retreat") được kí bởi general 0 (hay Commander) sau đó được kí tiếp bởi lieutenant j1, ... j2 ... jk.
+
+![](https://images.viblo.asia/8262809b-599c-4b2d-a044-3c0cd7c3fac2.jpg)
 
 Ở fig.5, đầu tiên Commander (là kẻ phản bội) thực hiện kí và gửi ("attack": 0) đến lieutenant 1 và ("retreat": 0) đến lieutenant 2. Ở bước 2, vì lieutenant 1 nhận message có dạng (v:0) nên lieutenant 1 ghi nhận giá trị v ("attack") vào V1, đồng thời kí và gửi đến lieutenant còn lại là lieutenant 2 với message ("attack":0:1). Cũng tương tự, lieutenant 2 ghi nhận giá trị v ("retreat") vào V2, đồng thời gửi message ("retreat":0:2) đến lieutenant 1. Khi lieutenant 1 nhận được message ("retreat":0:2), vì k = 1 (không bé hơn m = 1) nên dừng tại đây, cũng tương tự cho trường hợp của lieutenant 2. Đến bước 3, cả hai lieutenant thực hiện tổng hợp qua hàm Choice(Vi). Vì V1 và V2 đều là {"attack", "retreat"} (giống nhau) nên lệnh thực hiện của cả hai lieutenant cũng giống nhau. Như vậy, tính nhất quán được đảm bảo.
 

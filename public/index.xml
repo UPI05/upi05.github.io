@@ -6,7 +6,7 @@
     <description>Recent content on Hieu Vo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Apr 2023 12:52:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 14:48:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lời tựa</title>
       <link>https://upi05.github.io/about/</link>
@@ -15,6 +15,17 @@
       <guid>https://upi05.github.io/about/</guid>
       
         <description>Chào mọi người !!! Mình tên thật là Võ Trường Trung Hiếu.</description>
+      
+    </item>
+    
+    <item>
+      <title>Byzantine generals problem</title>
+      <link>https://upi05.github.io/posts/byzantine-generals-problem/</link>
+      <pubDate>Sun, 16 Apr 2023 14:48:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/byzantine-generals-problem/</guid>
+      
+        <description>Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui).</description>
       
     </item>
     
