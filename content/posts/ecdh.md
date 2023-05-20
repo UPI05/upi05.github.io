@@ -24,7 +24,7 @@ Trong trường hữu hạn Fp, việc tìm ra giá trị n khi cho trước P, 
 
 Bước 1: Alice và Bob cùng thỏa thuận tham số của đường cong Elliptic như a, b, điểm sinh G, p, ...
 
-Bước 2: Alice chọn giá trị nA làm private key, sau đó tính public key Qa = nA*G. Tương tự với Bob, chọn private key nB sau đó tính public key Qb = nB*G.
+Bước 2: Alice chọn giá trị nA làm private key, sau đó tính public key Qa = nA * G. Tương tự với Bob, chọn private key nB sau đó tính public key Qb = nB * G.
 
 Bước 3: Alice gửi public key của mình là Qa cho Bob và Bob cũng gửi public key của mình là Qb cho Alice.
 
