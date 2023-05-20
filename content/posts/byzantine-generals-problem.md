@@ -47,7 +47,7 @@ Mọi người có thể xem qua hình minh họa fig.4, ở ví dụ này ta c�
 
 ### Giải thuật Signed Message:
 
-![siged message algorithm](images/byzantine-generals-problem-img1.jpg)
+![siged message algorithm](../../images/byzantine-generals-problem-img1.jpg)
 
 Giải thuật Oral Message khó là do dữ liệu được truyền đi trong mạng nhưng không được đảm bảo tính toàn vẹn (ai cũng có thể giả mạo). Do vậy, người ta đưa thêm vào giả thuyết sử dụng chữ kí để dễ dàng hơn trong việc thực hiện:
 
