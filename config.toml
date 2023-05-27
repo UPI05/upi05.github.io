@@ -71,12 +71,17 @@ localizedDates = false
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:votruongtrunghieu@gmail.com"
+url = "mailto:admin@hieuvo.xyz"
 
 [[params.socialIcons]]
 icon = "fa-brands fa-github"
 title = "github"
 url = "https://github.com/upi05"
+
+[[params.socialIcons]]
+icon = "fa-brands fa-youtube"
+title = "youtube"
+url = "https://www.youtube.com/@0xdead_beef"
 
 [[params.socialIcons]]
 icon = "fa-solid fa-blog"
