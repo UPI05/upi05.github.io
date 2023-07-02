@@ -11,7 +11,6 @@ thumbnail= "thumbnail/thumbnail9.png"
   readMore = true
 +++
 
-![elliptic curve](../../thumbnail/thumbnail7.jpg)
 
 
 # Feistel
