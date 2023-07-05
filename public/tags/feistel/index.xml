@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>feistel on Hieu Vo</title>
+    <link>https://upi05.github.io/tags/feistel/</link>
+    <description>Recent content in feistel on Hieu Vo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Jul 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/feistel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mã hóa đối xứng - Phần 1: Feistel và DES</title>
+      <link>https://upi05.github.io/posts/feistel-and-des/</link>
+      <pubDate>Sun, 02 Jul 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/feistel-and-des/</guid>
+      <description>Feistel Feistel là một cấu trúc mã hóa khối được thiết kế bởi Horst Feistel và Don Coppersmith vào năm 1973.</description>
+    </item>
+    
+  </channel>
+</rss>

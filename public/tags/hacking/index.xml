@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cryptography on Hieu Vo</title>
-    <link>https://upi05.github.io/tags/cryptography/</link>
-    <description>Recent content in cryptography on Hieu Vo</description>
+    <title>hacking on Hieu Vo</title>
+    <link>https://upi05.github.io/tags/hacking/</link>
+    <description>Recent content in hacking on Hieu Vo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Jul 2023 01:11:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 01:11:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SHA-2 and Length extension attack</title>
       <link>https://upi05.github.io/posts/sha2-and-length-extension-attack/</link>
@@ -17,30 +17,12 @@
     </item>
     
     <item>
-      <title>Mã hóa đối xứng - Phần 1: Feistel và DES</title>
-      <link>https://upi05.github.io/posts/feistel-and-des/</link>
-      <pubDate>Sun, 02 Jul 2023 10:00:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/posts/feistel-and-des/</guid>
-      <description>Feistel Feistel là một cấu trúc mã hóa khối được thiết kế bởi Horst Feistel và Don Coppersmith vào năm 1973.</description>
-    </item>
-    
-    <item>
       <title>Ngăn chặn tấn công Man-in-the-middle khi triển khai hệ thống trao đổi khóa Elliptic Curve Diffie-Hellman</title>
       <link>https://upi05.github.io/posts/mitm-elliptic-curve/</link>
       <pubDate>Wed, 17 May 2023 15:43:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/mitm-elliptic-curve/</guid>
       <description>Chào mọi người, trong phần trước mình có trình bày về giao thức trao đổi khóa Diffie-Hellman trên đường cong Elliptic (ECDH).</description>
-    </item>
-    
-    <item>
-      <title>Trao đổi khóa Diffie-Hellman trên đường cong Elliptic</title>
-      <link>https://upi05.github.io/posts/ecdh/</link>
-      <pubDate>Wed, 17 May 2023 10:42:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/posts/ecdh/</guid>
-      <description>Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 + ax + b (4a^3 + 27b^2 ≠ 0).</description>
     </item>
     
   </channel>

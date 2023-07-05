@@ -6,27 +6,158 @@
     <description>Recent content in Tags on Hieu Vo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 May 2023 14:28:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 01:11:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cryptography</title>
+      <link>https://upi05.github.io/tags/cryptography/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hacking</title>
+      <link>https://upi05.github.io/tags/hacking/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Length_extension_attack</title>
+      <link>https://upi05.github.io/tags/length_extension_attack/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/length_extension_attack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAC</title>
+      <link>https://upi05.github.io/tags/mac/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merkle_Damgard</title>
+      <link>https://upi05.github.io/tags/merkle_damgard/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/merkle_damgard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sha-2</title>
+      <link>https://upi05.github.io/tags/sha-2/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/sha-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sha-256</title>
+      <link>https://upi05.github.io/tags/sha-256/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/sha-256/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sha-3</title>
+      <link>https://upi05.github.io/tags/sha-3/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/sha-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DES</title>
+      <link>https://upi05.github.io/tags/des/</link>
+      <pubDate>Sun, 02 Jul 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/des/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feistel</title>
+      <link>https://upi05.github.io/tags/feistel/</link>
+      <pubDate>Sun, 02 Jul 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/feistel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>https://upi05.github.io/tags/blockchain/</link>
+      <pubDate>Wed, 17 May 2023 15:43:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ecdh</title>
+      <link>https://upi05.github.io/tags/ecdh/</link>
+      <pubDate>Wed, 17 May 2023 15:43:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/ecdh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elliptic curve diffie-hellman</title>
+      <link>https://upi05.github.io/tags/elliptic-curve-diffie-hellman/</link>
+      <pubDate>Wed, 17 May 2023 15:43:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/elliptic-curve-diffie-hellman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elliptic_curve</title>
+      <link>https://upi05.github.io/tags/elliptic_curve/</link>
+      <pubDate>Wed, 17 May 2023 15:43:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/elliptic_curve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>man-in-the-middle</title>
+      <link>https://upi05.github.io/tags/man-in-the-middle/</link>
+      <pubDate>Wed, 17 May 2023 15:43:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/man-in-the-middle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mitm</title>
+      <link>https://upi05.github.io/tags/mitm/</link>
+      <pubDate>Wed, 17 May 2023 15:43:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/tags/mitm/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>BFT</title>
       <link>https://upi05.github.io/tags/bft/</link>
       <pubDate>Fri, 12 May 2023 14:28:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/bft/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>blockchain</title>
-      <link>https://upi05.github.io/tags/blockchain/</link>
-      <pubDate>Fri, 12 May 2023 14:28:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/tags/blockchain/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -35,9 +166,7 @@
       <pubDate>Fri, 12 May 2023 14:28:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/hotstuff_bft/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -46,9 +175,7 @@
       <pubDate>Fri, 12 May 2023 14:28:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/pbft/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -57,9 +184,7 @@
       <pubDate>Thu, 11 May 2023 19:44:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/distributed_system/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -68,9 +193,7 @@
       <pubDate>Thu, 11 May 2023 19:44:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/network/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -79,9 +202,7 @@
       <pubDate>Tue, 09 May 2023 09:11:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/consensus/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -90,9 +211,7 @@
       <pubDate>Mon, 08 May 2023 06:39:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/lamport_clock/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -101,9 +220,7 @@
       <pubDate>Sun, 16 Apr 2023 14:48:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/byzantine/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -112,53 +229,7 @@
       <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/aptos/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>cryptography</title>
-      <link>https://upi05.github.io/tags/cryptography/</link>
-      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/tags/cryptography/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>ecdh</title>
-      <link>https://upi05.github.io/tags/ecdh/</link>
-      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/tags/ecdh/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>elliptic curve diffie-hellman</title>
-      <link>https://upi05.github.io/tags/elliptic-curve-diffie-hellman/</link>
-      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/tags/elliptic-curve-diffie-hellman/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>elliptic_curve</title>
-      <link>https://upi05.github.io/tags/elliptic_curve/</link>
-      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/tags/elliptic_curve/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
     <item>
@@ -167,9 +238,7 @@
       <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/tags/sui/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
     
   </channel>

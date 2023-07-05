@@ -13,9 +13,7 @@
       <pubDate>Fri, 12 May 2023 14:28:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/hotstuff-vs-pbft/</guid>
-      
-        <description>Từ khi PBFT (Practical Byzantine Fault Tolerance) ra đời, đã có nhiều giải pháp được đề xuất nhằm cải tiến PBFT như BFT-SMaRt, Zyzzyva, SBFT, &amp;hellip; trong đó có cả HotStuff BFT.</description>
-      
+      <description>Từ khi PBFT (Practical Byzantine Fault Tolerance) ra đời, đã có nhiều giải pháp được đề xuất nhằm cải tiến PBFT như BFT-SMaRt, Zyzzyva, SBFT, &amp;hellip; trong đó có cả HotStuff BFT.</description>
     </item>
     
     <item>
@@ -24,9 +22,7 @@
       <pubDate>Sun, 16 Apr 2023 14:48:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/byzantine-generals-problem/</guid>
-      
-        <description>Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui).</description>
-      
+      <description>Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui).</description>
     </item>
     
   </channel>

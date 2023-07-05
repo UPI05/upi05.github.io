@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ecdh on Hieu Vo</title>
-    <link>https://upi05.github.io/tags/ecdh/</link>
-    <description>Recent content in ecdh on Hieu Vo</description>
+    <title>mitm on Hieu Vo</title>
+    <link>https://upi05.github.io/tags/mitm/</link>
+    <description>Recent content in mitm on Hieu Vo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 May 2023 15:43:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/ecdh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 15:43:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/tags/mitm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ngăn chặn tấn công Man-in-the-middle khi triển khai hệ thống trao đổi khóa Elliptic Curve Diffie-Hellman</title>
       <link>https://upi05.github.io/posts/mitm-elliptic-curve/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://upi05.github.io/posts/mitm-elliptic-curve/</guid>
       <description>Chào mọi người, trong phần trước mình có trình bày về giao thức trao đổi khóa Diffie-Hellman trên đường cong Elliptic (ECDH).</description>
-    </item>
-    
-    <item>
-      <title>Trao đổi khóa Diffie-Hellman trên đường cong Elliptic</title>
-      <link>https://upi05.github.io/posts/ecdh/</link>
-      <pubDate>Wed, 17 May 2023 10:42:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/posts/ecdh/</guid>
-      <description>Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 + ax + b (4a^3 + 27b^2 ≠ 0).</description>
     </item>
     
   </channel>

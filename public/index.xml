@@ -6,16 +6,50 @@
     <description>Recent content on Hieu Vo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 May 2023 14:28:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 01:11:00 +0000</lastBuildDate><atom:link href="https://upi05.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SHA-2 and Length extension attack</title>
+      <link>https://upi05.github.io/posts/sha2-and-length-extension-attack/</link>
+      <pubDate>Tue, 04 Jul 2023 01:11:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/sha2-and-length-extension-attack/</guid>
+      <description>SHA-2 SHA-2 (Secure Hash Algorithm 2) là hàm băm mật mã được thiết kế bởi NSA (Cơ quan An ninh Quốc gia Hoa Kỳ) và công bố năm 2001.</description>
+    </item>
+    
+    <item>
+      <title>Mã hóa đối xứng - Phần 1: Feistel và DES</title>
+      <link>https://upi05.github.io/posts/feistel-and-des/</link>
+      <pubDate>Sun, 02 Jul 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://upi05.github.io/posts/feistel-and-des/</guid>
+      <description>Feistel Feistel là một cấu trúc mã hóa khối được thiết kế bởi Horst Feistel và Don Coppersmith vào năm 1973.</description>
+    </item>
+    
     <item>
       <title>Lời tựa</title>
       <link>https://upi05.github.io/about/</link>
       <pubDate>Sat, 20 May 2023 07:43:04 +0700</pubDate>
       
       <guid>https://upi05.github.io/about/</guid>
+      <description>Chào mọi người !!! Mình tên thật là Võ Trường Trung Hiếu.</description>
+    </item>
+    
+    <item>
+      <title>Ngăn chặn tấn công Man-in-the-middle khi triển khai hệ thống trao đổi khóa Elliptic Curve Diffie-Hellman</title>
+      <link>https://upi05.github.io/posts/mitm-elliptic-curve/</link>
+      <pubDate>Wed, 17 May 2023 15:43:00 +0000</pubDate>
       
-        <description>Chào mọi người !!! Mình tên thật là Võ Trường Trung Hiếu.</description>
+      <guid>https://upi05.github.io/posts/mitm-elliptic-curve/</guid>
+      <description>Chào mọi người, trong phần trước mình có trình bày về giao thức trao đổi khóa Diffie-Hellman trên đường cong Elliptic (ECDH).</description>
+    </item>
+    
+    <item>
+      <title>Trao đổi khóa Diffie-Hellman trên đường cong Elliptic</title>
+      <link>https://upi05.github.io/posts/ecdh/</link>
+      <pubDate>Wed, 17 May 2023 10:42:00 +0000</pubDate>
       
+      <guid>https://upi05.github.io/posts/ecdh/</guid>
+      <description>Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 + ax + b (4a^3 + 27b^2 ≠ 0).</description>
     </item>
     
     <item>
@@ -24,9 +58,7 @@
       <pubDate>Fri, 12 May 2023 14:28:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/hotstuff-vs-pbft/</guid>
-      
-        <description>Từ khi PBFT (Practical Byzantine Fault Tolerance) ra đời, đã có nhiều giải pháp được đề xuất nhằm cải tiến PBFT như BFT-SMaRt, Zyzzyva, SBFT, &amp;hellip; trong đó có cả HotStuff BFT.</description>
-      
+      <description>Từ khi PBFT (Practical Byzantine Fault Tolerance) ra đời, đã có nhiều giải pháp được đề xuất nhằm cải tiến PBFT như BFT-SMaRt, Zyzzyva, SBFT, &amp;hellip; trong đó có cả HotStuff BFT.</description>
     </item>
     
     <item>
@@ -35,9 +67,7 @@
       <pubDate>Thu, 11 May 2023 19:44:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/network_synchrony/</guid>
-      
-        <description>Trong hệ thống phân tán, người ta thường phân mạng (network) thành 3 loại:</description>
-      
+      <description>Trong hệ thống phân tán, người ta thường phân mạng (network) thành 3 loại:</description>
     </item>
     
     <item>
@@ -46,9 +76,7 @@
       <pubDate>Tue, 09 May 2023 09:11:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/practical_byzantine_fault_tolerance/</guid>
-      
-        <description>Pbft là giải thuật chống lỗi byzantine đầu tiên có thể chạy được trên mạng bất đồng bộ (như internet).</description>
-      
+      <description>Pbft là giải thuật chống lỗi byzantine đầu tiên có thể chạy được trên mạng bất đồng bộ (như internet).</description>
     </item>
     
     <item>
@@ -57,9 +85,7 @@
       <pubDate>Mon, 08 May 2023 06:39:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/lamport-clocks/</guid>
-      
-        <description>Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận.</description>
-      
+      <description>Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận.</description>
     </item>
     
     <item>
@@ -68,9 +94,7 @@
       <pubDate>Sun, 16 Apr 2023 14:48:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/byzantine-generals-problem/</guid>
-      
-        <description>Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui).</description>
-      
+      <description>Bài toán các vị tướng quân Byzantine được đề cập như sau: Có n vị tướng quân (trong đó có một số kẻ phản bội) bao vây một tòa thành, hành động của họ được xem là thành công nếu tất cả các vị tướng quân trung thành đều đưa ra cùng 1 quyết định (tấn công hoặc rút lui).</description>
     </item>
     
     <item>
@@ -79,20 +103,7 @@
       <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/sui-vs-aptos/</guid>
-      
-        <description>Mặc dù blockchain đang ngày càng trở nên phổ biến trong cộng đồng, tuy nhiên vẫn còn một số rào cản khiến công nghệ này khó tiếp cận với phần đông mọi người.</description>
-      
-    </item>
-    
-    <item>
-      <title>Trao đổi khóa Diffie-Hellman trên đường cong Elliptic</title>
-      <link>https://upi05.github.io/posts/ecdh/</link>
-      <pubDate>Mon, 03 Apr 2023 12:52:00 +0000</pubDate>
-      
-      <guid>https://upi05.github.io/posts/ecdh/</guid>
-      
-        <description>Đường cong Elliptic được định nghĩa có dạng: y^2 = y^3 + ax + b (4a^3 + 27b^2 ≠ 0).</description>
-      
+      <description>Mặc dù blockchain đang ngày càng trở nên phổ biến trong cộng đồng, tuy nhiên vẫn còn một số rào cản khiến công nghệ này khó tiếp cận với phần đông mọi người.</description>
     </item>
     
   </channel>

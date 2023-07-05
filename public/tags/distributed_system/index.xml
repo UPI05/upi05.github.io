@@ -13,9 +13,7 @@
       <pubDate>Thu, 11 May 2023 19:44:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/network_synchrony/</guid>
-      
-        <description>Trong hệ thống phân tán, người ta thường phân mạng (network) thành 3 loại:</description>
-      
+      <description>Trong hệ thống phân tán, người ta thường phân mạng (network) thành 3 loại:</description>
     </item>
     
     <item>
@@ -24,9 +22,7 @@
       <pubDate>Mon, 08 May 2023 06:39:00 +0000</pubDate>
       
       <guid>https://upi05.github.io/posts/lamport-clocks/</guid>
-      
-        <description>Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận.</description>
-      
+      <description>Trong các hệ thống phân tán (distributed system), thứ tự của các sự kiện (gửi, nhận message) cần được ghi nhận.</description>
     </item>
     
   </channel>
