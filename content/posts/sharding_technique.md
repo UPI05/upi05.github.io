@@ -1,6 +1,6 @@
 +++
 title = "Kĩ thuật Sharding (Tóm lược)"
-date = 2023-10-08T11:50:00
+date = 2023-10-07T11:50:00
 tags = [
 "blockchain",
 "sharding"
