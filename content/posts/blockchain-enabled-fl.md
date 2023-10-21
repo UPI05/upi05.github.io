@@ -1,5 +1,5 @@
 +++
-title = "Tổng quan mô hình kết hợp Federed Learning và Blockchain"
+title = "Tổng quan mô hình kết hợp Federated Learning và Blockchain"
 date = 2023-10-20T11:50:00
 tags = [
 "blockchain",
