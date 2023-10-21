@@ -92,6 +92,6 @@ url = "https://viblo.asia/u/upi05"
 [params]
 title = "I'm Hieu Vo"
 author = "Hieu Vo"
-description = "Blockchain Research Assistant at Vietnam Blockchain Innovation - VBI \n Blockchain Intern at Information Security Laboratory - InsecLab \n My research interests include Smart grid, Blockchain, Cryptography and ML/DL for Security"
+description = "Blockchain Research Assistant at Vietnam Blockchain Innovation - VBI \n Blockchain Intern at Information Security Laboratory - InsecLab \n My research interests include Smart grid, Blockchain, Cryptography & AKA protocol, Malware, Network and ML/DL for Security"
 profilePicture = "images/logo2.png"
 favicon = "favicons/favicon.ico"
